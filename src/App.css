@@ -32,6 +32,11 @@ footer {
   bottom: 0px;
 }
 
+footer * {
+
+  justify-content: space-evenly;
+}
+
 .currentPage a {
   font-weight: bold;
   color: rgb(60, 75, 36);
