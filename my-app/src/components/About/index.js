@@ -1,21 +1,19 @@
 import React from 'react';
-import coverImage from '../../assets/cover/cover-image.jpg';
 function About() {
   return (
-    <section className="my-5">
-      <h1 id="about">Who am I?</h1>
-      <img src={coverImage} className="my-2" style={{ width: "100%" }} alt="cover" />
-      <div className="my-2">
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum turpis sed ex
-          condimentum molestie. Mauris condimentum lectus ut ornare dignissim. Mauris faucibus urna
-          mi, ac feugiat metus aliquam maximus. Proin aliquam justo nec diam vulputate vestibulum.
-          Aenean sollicitudin nulla at nisi ornare, nec suscipit massa eleifend. Morbi tristique
-          justo vel turpis sollicitudin, et tristique velit convallis. In hac habitasse platea
-          dictumst. Phasellus mattis nunc sed orci consequat laoreet. Praesent id nisl nibh.
-          Curabitur imperdiet ultricies mollis. In hac habitasse platea dictumst.
+    <section id="about" className="aboutme">
+      <h2 id="about" className="aboutme-leftside">Who am I?</h2>
+      <p className="aboutme-rightside">
+            My name is Zaphod Bobbybrox. I am a 45 year old father, business owner, and now full stack developer. I have
+            been in the tech world since I was a kid taking
+            audio gear apart to figure out how it worked and how to make it do different things I wanted to make it do.
+            That enginuity brought me to the audio/video and automation
+            world back in July of 2000. From there I have rose to be one of the leading integrators in my region and
+            also one of the most respected. But.....I've always wanted to
+            learn how to write code and to discover the underpinnings of the computing world I so richly appreciate. So
+            here I am...45 and learning to code. The next chapter will
+            be to discover the new opportunities my newly earned skills will present me. Hello World.
         </p>
-      </div>
     </section>
   );
 }

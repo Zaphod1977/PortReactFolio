@@ -4,6 +4,7 @@ import About from './components/About';
 import Portfolio from './components/Portfolio';
 import ContactForm from './components/Contact';
 import Resume from './components/Resume';
+import Footer from './components/Footer';
 
 import './App.css';
 
@@ -11,13 +12,11 @@ import './App.css';
 
 function App() {
   const [currentPage, setCurrentPage] = useState(
-    "splash"
+    "About"
   );
 
   const switchPage = (page) => {
     switch (page) {
-      case "Splash":
-        return <p>splash page coming soon</p>;
       case "About":
         return <About></About>;
       case "Portfolio":
@@ -27,17 +26,20 @@ function App() {
       case "Resume":
         return <Resume></Resume>;
       default:
-        return <p>splash page coming soon</p>;
+        return <About></About>;
     };
   }
 
   return (
-    <div>
+    <div className='wrapper'>
       <Nav
         currentPage={currentPage}
         setCurrentPage={setCurrentPage}
       ></Nav>
-      {switchPage(currentPage)}
+      <div className="hero">
+      </div>
+      <main>{switchPage(currentPage)}</main>
+      <Footer></Footer>
     </div>
   );
 }
