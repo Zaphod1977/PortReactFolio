@@ -26,6 +26,7 @@ header {
 }
 
 footer {
+  background-color: gray;
   flex-shrink: 0;
   position: sticky;
   bottom: 0px;
@@ -94,6 +95,7 @@ header nav ul li a {
   color: royalblue;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   text-align: justify;
+  height: 50vh;
 }
 
 .aboutme-leftside {
@@ -127,6 +129,7 @@ header nav ul li a {
 }
 
 .work-rightside {
+  max-width: 17em;
   font-size: 55px;
   color: #024e76;
   margin: 35px 0 35px 2px;
@@ -198,10 +201,12 @@ header nav ul li a {
      Hero Style Start */
 .hero {
   background-image: url("./assets/images/banner.jpg");
-  height: 300px;
+  max-height: 15vh;
+  min-height: 15vh;
   background-size: cover;
   background-position: center;
   position: relative;
+  flex-shrink: 0;
 }
 
 /* Hero Style End */
@@ -227,12 +232,11 @@ main {
   display: flex;
   /* justify-content: space-evenly; */
   color: black;
-  font-size: 1.55vw;
-  margin: 45px 35px 0 35px;
+  font-size: 1.2em;
 }
 
 #con a {
-  margin: 7%;
+  margin: 1.5em;
 }
 
 #contact-me {
@@ -250,6 +254,36 @@ html,
 body {
   position: relative;
 }
+
+.contactForm {
+  display: flex;
+  flex-direction: row;
+  height: 60vh;
+}
+
+.contactForm h2 {
+  display: block;
+  font-size: 50px;
+}
+
+.contactForm form {
+  font-size: 1.7em;
+}
+
+.contactForm input, .contactForm textarea {
+  float: right;
+  width: 250px;
+ height: 2.2em;
+}
+
+.contactForm textarea {
+  height: 12em;
+}
+
+
+
+
+
 
 /* start media query here -  tablet devices */
 @media only screen and (max-width: 390px) {

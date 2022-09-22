@@ -21,7 +21,7 @@ function Nav(props) {
         <ul className="flex-row">
           <li className={currentPage === "About" ? "currentPage" : ""}>
             <a data-testid="about" href="#About" onClick={() => setCurrentPage("About")}>
-              About me
+              About
             </a>
           </li>
           <li className={currentPage === "Portfolio" ? "currentPage" : ""}>

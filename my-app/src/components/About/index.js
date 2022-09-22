@@ -2,7 +2,7 @@ import React from 'react';
 function About() {
   return (
     <section id="about" className="aboutme">
-      <h2 id="about" className="aboutme-leftside">Who am I?</h2>
+      <h2 id="about" className="aboutme-leftside">About</h2>
       <p className="aboutme-rightside">
             My name is Zaphod Bobbybrox. I am a 45 year old father, business owner, and now full stack developer. I have
             been in the tech world since I was a kid taking
