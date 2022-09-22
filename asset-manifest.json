@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/PortReactFolio/static/css/main.670af20d.css",
-    "main.js": "/PortReactFolio/static/js/main.29296020.js",
+    "main.css": "/PortReactFolio/static/css/main.7bd581e4.css",
+    "main.js": "/PortReactFolio/static/js/main.6b642aeb.js",
     "static/js/787.28cb0dcd.chunk.js": "/PortReactFolio/static/js/787.28cb0dcd.chunk.js",
+    "static/media/Resume.jpg": "/PortReactFolio/static/media/Resume.3afa2f73b00737263380.jpg",
     "static/media/STL_Happens screenshot.PNG": "/PortReactFolio/static/media/STL_Happens screenshot.ef9a9b2820f63adcba01.PNG",
     "static/media/movieJuice.jpg": "/PortReactFolio/static/media/movieJuice.3fa7a03956699d54b963.jpg",
     "static/media/banner.jpg": "/PortReactFolio/static/media/banner.e57be2bb859075506af2.jpg",
-    "static/media/art_eclipse.JPG": "/PortReactFolio/static/media/art_eclipse.9dea166d748dd886435a.JPG",
     "static/media/The vizit.jfif": "/PortReactFolio/static/media/The vizit.a9a2fc1b791468557b8a.jfif",
     "static/media/weather resize.jpg": "/PortReactFolio/static/media/weather resize.a347d89ac18a77058fc2.jpg",
     "index.html": "/PortReactFolio/index.html",
-    "main.670af20d.css.map": "/PortReactFolio/static/css/main.670af20d.css.map",
-    "main.29296020.js.map": "/PortReactFolio/static/js/main.29296020.js.map",
+    "main.7bd581e4.css.map": "/PortReactFolio/static/css/main.7bd581e4.css.map",
+    "main.6b642aeb.js.map": "/PortReactFolio/static/js/main.6b642aeb.js.map",
     "787.28cb0dcd.chunk.js.map": "/PortReactFolio/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.670af20d.css",
-    "static/js/main.29296020.js"
+    "static/css/main.7bd581e4.css",
+    "static/js/main.6b642aeb.js"
   ]
 }
