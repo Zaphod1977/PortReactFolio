@@ -119,6 +119,11 @@ header nav ul li a {
   display: flex;
 }
 
+.work img {
+  margin: 1.5em;
+  max-width: 50vw;
+}
+
 .work-leftside {
   font-size: 50px;
   color: black;
@@ -280,7 +285,9 @@ body {
   height: 12em;
 }
 
-
+.resume {
+  max-width:50vw;
+}
 
 
 

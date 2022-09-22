@@ -4,7 +4,6 @@ import podcastImage from '../../assets/images/The vizit.jfif'
 import movieJuice from '../../assets/images/movieJuice.jpg'
 import STL_Happens from '../../assets/images/STL_Happens screenshot.PNG'
 import weatherApp from '../../assets/images/weather resize.jpg'
-import art_eclipse from '../../assets/images/art_eclipse.JPG'
 import Project from '../Project';
 
 
