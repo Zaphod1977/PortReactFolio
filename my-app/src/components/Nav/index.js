@@ -3,16 +3,12 @@ import { capitalizeFirstLetter } from '../../utils/helpers';
 
 function Nav(props) {
   const {
-    categories = [],
-    setCurrentCategory,
-    contactSelected,
-    currentCategory,
-    setContactSelected,
+    currentPage, setCurrentPage
   } = props;
 
   useEffect(() => {
-    document.title = capitalizeFirstLetter(currentCategory.name);
-  }, [currentCategory]);
+    document.title = capitalizeFirstLetter(currentPage);
+  }, [currentPage]);
 
   return (
     <header className="flex-row px-1">
@@ -24,30 +20,25 @@ function Nav(props) {
       <nav>
         <ul className="flex-row">
           <li className="mx-2">
-            <a data-testid="about" href="#about" onClick={() => setContactSelected(false)}>
+            <a data-testid="about" href="#About" onClick={() => setCurrentPage("About")}>
               About me
             </a>
           </li>
-          <li className={`mx-2 ${contactSelected && 'navActive'}`}>
-            <span onClick={() => setContactSelected(true)}>Contact</span>
+          <li className="mx-2">
+            <a data-testid="Portfolio" href="#Portfolio" onClick={() => setCurrentPage("Portfolio")}>
+              Portfolio
+            </a>
           </li>
-          {categories.map((category) => (
-            <li
-              className={`mx-1 ${
-                currentCategory.name === category.name && !contactSelected && 'navActive'
-                }`}
-              key={category.name}
-            >
-              <span
-                onClick={() => {
-                  setCurrentCategory(category);
-                  setContactSelected(false);
-                }}
-              >
-                {capitalizeFirstLetter(category.name)}
-              </span>
-            </li>
-          ))}
+          <li className="mx-2">
+            <a data-testid="Contact" href="#Contact" onClick={() => setCurrentPage("Contact")}>
+              Contact
+            </a>
+          </li>
+          <li className="mx-2">
+            <a data-testid="Resume" href="#Resume" onClick={() => setCurrentPage("Resume")}>
+              Resume
+            </a>
+          </li>
         </ul>
       </nav>
     </header>
