@@ -1,6 +1,6 @@
 import React from 'react';
 import { capitalizeFirstLetter } from '../../utils/helpers';
-import podcastImage from '../../assets/images/The vizit.jfif'
+import horrorScorer from '../../assets/images/horror_scorer_screengrab.PNG'
 import movieJuice from '../../assets/images/movieJuice.jpg'
 import STL_Happens from '../../assets/images/STL_Happens screenshot.PNG'
 import weatherApp from '../../assets/images/weather resize.jpg'
@@ -14,10 +14,10 @@ function Portfolio(props) {
       <div className="work-rightside">
         <div className="btmw">
           <Project
-            linkurl="https://open.spotify.com/show/2ip0Ojn7AwzukeawerfPDE"
-            imageSource={podcastImage}
+            linkurl="https://horror-scorer.herokuapp.com/"
+            imageSource={horrorScorer}
             imageAlt=""
-            label="The Vizit">
+            label="MERN Demo">
           </Project>
           <Project
             linkurl="https://agile-harbor-58683.herokuapp.com/"
