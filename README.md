@@ -20,5 +20,5 @@
 <p>https://github.com/Zaphod1977/</p>
 <h2>Website</h2>
 <p>https://zaphodsportfolio.herokuapp.com/</p>
-<h2>Email Address</h2><p>zaphod@nunya.com</p>
+<h2>Email Address</h2><p>carfiguru@hotmail.com</p>
 <p> <img src="https://github.com/Zaphod1977/PortReactFolio/blob/main/src/assets/images/ScreenCaptureOfApp.PNG?raw=true" width="800" /> </p>

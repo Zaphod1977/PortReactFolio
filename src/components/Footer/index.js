@@ -3,7 +3,7 @@ function Footer() {
   return (
     <footer>
         <div id="con">
-            <a>555.555.555</a>
+            <a>314-853-0016</a>
             <a href="https://www.linkedin.com/in/bobby-bridges-baa54889/">Linkedin</a>
             <a href="https://github.com/Zaphod1977/">Github</a>
             <a href="https://www.instagram.com/bobby_bridges_teg/?hl=en">Instagram</a>
