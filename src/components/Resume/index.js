@@ -6,9 +6,9 @@ function Resume(props) {
   return (
     <section id="work" className="work">
       <h2 className="work-leftside">Resume</h2>
-      <div className="resume">
+      <div >
         <div className="">
-          <Project
+          <Project className="resume"
             imageSource={resumeImage}
             imageAlt=""
             label="">

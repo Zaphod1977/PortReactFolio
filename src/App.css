@@ -299,6 +299,10 @@ body {
 
 /* start media query here -  tablet devices */
 @media only screen and (max-width: 390px) {
+  
+  /* footer {
+    position: sticky;
+  } */
 
   header,
 
@@ -306,6 +310,7 @@ body {
     width: 100%;
     flex-direction: column;
     height: 150px;
+    align-items: center;
   }
 
   nav li {
@@ -347,8 +352,7 @@ body {
   .work {
     flex-direction: column;
     max-width: 100%;
-    margin: 2%;
-
+    margin: 5%;
   }
 
   .work-leftside {
@@ -356,6 +360,13 @@ body {
     margin: 0;
     border-right: none;
     font-size: 35px;
+  }
+
+  .contactForm {
+    margin-top: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   #contact-section {
@@ -366,7 +377,7 @@ body {
     text-align: center;
     padding: 0;
     border-right: none;
-    font-size: 35px;
+    font-size: 25px;
   } 
 
   #contact-me div {
