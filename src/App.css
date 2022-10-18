@@ -3,6 +3,14 @@
   font-family: cor;
 }
 
+.space {
+  background-image: url(../src/assets/images/Lines.gif);
+}
+
+img {
+  transform: scale(1.3, 0.4);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -11,6 +19,7 @@
 
 a {
   text-decoration: none;
+  color: white;
 }
 
 body {
@@ -23,6 +32,7 @@ body {
 /* apply styles to <header> */
 header {
   padding: 20px 35px;
+  align-items: center;
   background-color: gray;
   opacity: calc(100);
   position: sticky;
@@ -34,17 +44,16 @@ footer {
   background-color: gray;
   flex-shrink: 0;
   position: sticky;
-  bottom: 0px;
+  bottom: 0px;  
 }
 
 footer * {
-
+  
   justify-content: space-evenly;
 }
 
 .currentPage a {
-  font-weight: bold;
-  color: rgb(60, 75, 36);
+  font-weight: bolder;
 }
 
 #name {
@@ -71,7 +80,7 @@ header h1 {
 
 header a {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 header nav {

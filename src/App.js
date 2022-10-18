@@ -36,7 +36,7 @@ function App() {
         currentPage={currentPage}
         setCurrentPage={setCurrentPage}
       ></Nav>
-      <div className="">
+      <div className="space">
       </div>
       <main>{switchPage(currentPage)}</main>
       <Footer></Footer>

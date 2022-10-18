@@ -1,7 +1,7 @@
 import React from 'react';
 function Footer() {
   return (
-    <footer>
+    <footer className='space'>
         <div id="con">
             <a>314-853-0016</a>
             <a href="https://www.linkedin.com/in/bobby-bridges-baa54889/">Linkedin</a>
