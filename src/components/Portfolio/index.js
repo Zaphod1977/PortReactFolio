@@ -1,5 +1,5 @@
 import React from 'react';
-import { capitalizeFirstLetter } from '../../utils/helpers';
+// import { capitalizeFirstLetter } from '../../utils/helpers';
 import horrorScorer from '../../assets/images/horror_scorer_screengrab.PNG'
 import movieJuice from '../../assets/images/movieJuice.jpg'
 import STL_Happens from '../../assets/images/STL_Happens screenshot.PNG'
