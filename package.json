@@ -1,6 +1,8 @@
 {
   "name": "portfolio",
-  "version": "16.15.1",
+  "version": "0.1.2",
+  "engines": {
+    "node": "16.15.1"},
   "homepage": "https://zaphod1977.github.io/PortReactFolio/",
   "private": true,
   "dependencies": {
