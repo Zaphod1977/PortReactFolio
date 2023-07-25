@@ -1,5 +1,5 @@
 import React from 'react';
-import resumeImage from '../../assets/images/Resume.jpg'
+import resumeImage from '../../assets/images/ResumeV2.0.jpg'
 import Project from '../Project';
 function Resume(props) {
 
